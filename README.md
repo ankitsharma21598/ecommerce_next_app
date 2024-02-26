@@ -60,20 +60,26 @@ npm run dev
 ### 1. Cart Management
 
 - **GET /api/cart**: Retrieve the current user's cart contents.
-- **POST /api/cart/add/:productId**: Add a product to the cart.
+- **POST /api/cart/add/**: Add a product to the cart.
 - **DELETE /api/cart/remove/:cartId**: Remove a product from the cart.
-- **PUT /api/cart/update**: Update the quantity of a product in the cart.
+- **PATCH /api/cart/update**: Update the quantity of a product in the cart.
 
 ### 2. Product Management
 
-- **GET /api/products?categoryId**: Retrieve a list of all available products by categoryId.
-- **GET /api/products/:productId**: Retrieve details of a specific product.
-- **GET /api/products/:productId**: Retrieve details of a specific product.
+- **GET /api/products?categoryId**: API endpoint that retrieves a list of products by categoryID.
+- **GET /api/categories**: API endpoint that retrieves a list of categories.
+- **GET /api/products/:productId**: Fetches the detailed information of a specific product by its ID.
 
-### 3. Purchase Management
+### 3. Order Management
 
-- **POST /api/purchase**: Purchase the items in the cart.
-- **GET /api/purchases**: Retrieve a list of purchased products.
+- **POST /api/orders/place**: Purchase the items in the cart.
+- **GET /api/orders/history**: Retrieve a list of purchased products.
+- **GET /api/orders/:orderID**: Retrieve a purchased product by orderID.
+
+### 4. Authentication
+
+- **POST /api/users/register**: API for register a user.
+- **POST /api/users/login**: API to login a user.
 
 ## Usage
 
