@@ -13,7 +13,7 @@ This API is designed to manage an E-commerce platform. Users can interact with v
 
 ### API Github Link: https://github.com/ankitsharma21598/ecommerce_api
 
-### Video Explanation Link: 
+### Video Explanation Link: https://www.youtube.com/watch?v=KBgU7Zgf5XI
 
 ## Features
 
